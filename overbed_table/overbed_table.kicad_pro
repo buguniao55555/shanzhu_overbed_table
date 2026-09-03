@@ -661,7 +661,7 @@
         "uuid": "ea72387d-aa38-4027-b8fe-1f6fcfee6654"
       }
     ],
-    "used_designators": "L1-3,#PWR1-5,U1-4,C1-13,#FLG1-7,R1-5",
+    "used_designators": "D1-7,L1-3,#PWR1-15,U1-5,C1-19,R1-11,#FLG1-10,SW1-12,LED1-3,Q1-2",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,14 @@
     [
       "bc1df04d-41c1-44eb-b11f-072746bfa742",
       "数码管_按钮"
+    ],
+    [
+      "25954d49-d140-4b1e-8559-56af72db8581",
+      "3V3_5V_转换器"
+    ],
+    [
+      "7f0a582c-147f-4902-afa9-3f3f4d503f7d",
+      "步进驱动"
     ]
   ],
   "text_variables": {},

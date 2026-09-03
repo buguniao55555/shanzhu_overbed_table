@@ -200,6 +200,92 @@
 		)
 	)
 	(sheet
+		(at 127 88.9)
+		(size 29.21 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "25954d49-d140-4b1e-8559-56af72db8581")
+		(property "Sheetname" "3V3_5V_转换器"
+			(at 127 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3V3_5V_转换器.kicad_sch"
+			(at 127 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_IN" input
+			(at 127 92.71 180)
+			(uuid "36ce815b-b589-4f28-a2f4-20ccaaeaf823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_SIG" bidirectional
+			(at 127 97.79 180)
+			(uuid "7093b23c-234a-472c-9eb4-71b9508fa4b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_IN" input
+			(at 156.21 92.71 0)
+			(uuid "ee27fb9d-cf4b-4ff9-83ce-43ea0a272e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_SIG" bidirectional
+			(at 156.21 97.79 0)
+			(uuid "6dae9bd6-abee-4bc6-a259-91640c66bd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 50.8)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
@@ -286,8 +372,54 @@
 		)
 	)
 	(sheet
-		(at 88.9 82.55)
-		(size 26.67 19.05)
+		(at 76.2 114.3)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f0a582c-147f-4902-afa9-3f3f4d503f7d")
+		(property "Sheetname" "步进驱动"
+			(at 76.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "步进驱动.kicad_sch"
+			(at 76.2 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 88.9)
+		(size 26.67 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -302,7 +434,7 @@
 		)
 		(uuid "bc1df04d-41c1-44eb-b11f-072746bfa742")
 		(property "Sheetname" "数码管_按钮"
-			(at 88.9 81.8384 0)
+			(at 76.2 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -313,7 +445,7 @@
 			)
 		)
 		(property "Sheetfile" "数码管_按钮.kicad_sch"
-			(at 88.9 102.1846 0)
+			(at 76.2 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,6 +453,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V_IN" input
+			(at 76.2 92.71 180)
+			(uuid "0600e003-f331-466f-b108-9bec950921a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" output
+			(at 102.87 95.25 0)
+			(uuid "13ab5bd6-7e19-4107-9892-baa002ef6957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIO" bidirectional
+			(at 102.87 97.79 0)
+			(uuid "09b9bd9f-a688-401f-975b-ee0bebf719a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_IN" input
+			(at 76.2 97.79 180)
+			(uuid "5f1b21ce-91f5-4554-bd78-671c3c32fbdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STB" output
+			(at 102.87 92.71 0)
+			(uuid "2331deea-8cd3-4809-aa05-9652acb6b8b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
