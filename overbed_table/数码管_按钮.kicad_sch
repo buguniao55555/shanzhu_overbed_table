@@ -1,0 +1,789 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "857a1a34-c96f-453c-88f5-6896c85ac3e8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc_imported:TM1638"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TM1638"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C19187_SOIC-28_L17_9-W7_5-P1_27-LS10_3-BL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809182111_TM-Shenzhen-Titan-Micro-Elec-TM1638_C19187.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TM1638"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19187"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TM(天微)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TM1638_1_1"
+				(rectangle
+					(start -15.24 19.05)
+					(end 15.24 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 16.51 0)
+					(length 5.08)
+					(name "K1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 13.97 0)
+					(length 5.08)
+					(name "K2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 11.43 0)
+					(length 5.08)
+					(name "K3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 8.89 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 6.35 0)
+					(length 5.08)
+					(name "SEG1/K1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 3.81 0)
+					(length 5.08)
+					(name "SEG2/K2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 1.27 0)
+					(length 5.08)
+					(name "SEG3/K3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -1.27 0)
+					(length 5.08)
+					(name "SEG4/K4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -3.81 0)
+					(length 5.08)
+					(name "SEG5/K5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -6.35 0)
+					(length 5.08)
+					(name "SEG6/K6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -8.89 0)
+					(length 5.08)
+					(name "SEG7/K7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -11.43 0)
+					(length 5.08)
+					(name "SEG8/K8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -13.97 0)
+					(length 5.08)
+					(name "SEG9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -16.51 0)
+					(length 5.08)
+					(name "SEG10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -16.51 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -13.97 180)
+					(length 5.08)
+					(name "GR8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -11.43 180)
+					(length 5.08)
+					(name "GR7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -8.89 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -6.35 180)
+					(length 5.08)
+					(name "GR6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -3.81 180)
+					(length 5.08)
+					(name "GR5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -1.27 180)
+					(length 5.08)
+					(name "GR4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 1.27 180)
+					(length 5.08)
+					(name "GR3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 3.81 180)
+					(length 5.08)
+					(name "GR2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 6.35 180)
+					(length 5.08)
+					(name "GR1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 8.89 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 11.43 180)
+					(length 5.08)
+					(name "DIO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 13.97 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 16.51 180)
+					(length 5.08)
+					(name "STB"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:TM1638")
+		(at 135.89 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b29c85f-4cc4-4d6f-abdb-c0f777ba3459")
+		(property "Reference" "U3"
+			(at 135.89 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TM1638"
+			(at 135.89 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C19187_SOIC-28_L17_9-W7_5-P1_27-LS10_3-BL"
+			(at 135.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809182111_TM-Shenzhen-Titan-Micro-Elec-TM1638_C19187.pdf"
+			(at 133.604 91.313 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TM1638"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19187"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TM(天微)"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "26"
+			(uuid "ff54c9fd-997f-4015-92a2-d2f8a94fc643")
+		)
+		(pin "8"
+			(uuid "c8bd7d35-8dfd-4f3c-99fe-7546bc54ba90")
+		)
+		(pin "7"
+			(uuid "29093b0a-af00-4046-9ba5-255b56a6e9c9")
+		)
+		(pin "6"
+			(uuid "ce454ce1-4620-4eb4-ba30-4b1d937ae7c8")
+		)
+		(pin "13"
+			(uuid "11f5d798-55c5-4dd5-9b06-dc379bd95acb")
+		)
+		(pin "14"
+			(uuid "9508d3e2-cf6d-4d2b-b1ad-ca5213cc106a")
+		)
+		(pin "28"
+			(uuid "6c654e72-ada0-445b-a1e4-f5ab13c0a3fa")
+		)
+		(pin "19"
+			(uuid "4bcd1f83-c044-49fb-a959-3794047a09b4")
+		)
+		(pin "5"
+			(uuid "8607a506-e551-44e6-a8a7-6bde27954cde")
+		)
+		(pin "24"
+			(uuid "8a14af78-cf36-4650-aa54-53cccf96d6ca")
+		)
+		(pin "22"
+			(uuid "991762c5-17cc-4af2-94c4-ba2fa823b4dd")
+		)
+		(pin "16"
+			(uuid "50b1aeb4-2cf0-4706-94ff-d5e7aeb91971")
+		)
+		(pin "27"
+			(uuid "9550c94a-cf0f-4fda-b093-ba03c305db76")
+		)
+		(pin "1"
+			(uuid "f5cff776-0eb5-4cd6-af88-27b1b3d3904c")
+		)
+		(pin "25"
+			(uuid "fe8a500a-8fa5-49c9-a242-f1e1411d7326")
+		)
+		(pin "23"
+			(uuid "cbf807fb-a3cd-46e3-8c40-0f381173f8d8")
+		)
+		(pin "15"
+			(uuid "d379d4bd-8db5-467b-ab14-2c46175a61ce")
+		)
+		(pin "11"
+			(uuid "85de8f88-6520-4a36-854f-b85eb3aff9b2")
+		)
+		(pin "20"
+			(uuid "deba60b3-0995-47bc-8c4a-d836f3004408")
+		)
+		(pin "21"
+			(uuid "e71da68f-1c50-49e7-a80c-2ee05d7f7ada")
+		)
+		(pin "18"
+			(uuid "7a76966c-b78e-471b-9c37-704d383b7689")
+		)
+		(pin "2"
+			(uuid "fa99bb3e-513f-4fb8-bc93-b26901cb7f3d")
+		)
+		(pin "4"
+			(uuid "4c5b3d82-9eb6-4a21-aa05-b378f373757e")
+		)
+		(pin "9"
+			(uuid "e1956a03-bee7-4c1c-ac74-7b78e210007d")
+		)
+		(pin "17"
+			(uuid "6569e974-f147-488e-88ce-65c1e351b6d6")
+		)
+		(pin "3"
+			(uuid "931642ab-9f74-40e4-8415-a05dd841f583")
+		)
+		(pin "12"
+			(uuid "b7432554-8a5c-47cb-a66f-cb1353ad7bac")
+		)
+		(pin "10"
+			(uuid "563df7e3-9290-46f0-b15e-400d76d3a35e")
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/bc1df04d-41c1-44eb-b11f-072746bfa742"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

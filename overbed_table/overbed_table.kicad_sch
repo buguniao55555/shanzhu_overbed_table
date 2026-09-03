@@ -201,7 +201,7 @@
 	)
 	(sheet
 		(at 76.2 50.8)
-		(size 39.37 29.21)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -215,7 +215,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "58200068-4715-4e07-a2e5-d4af79047f28")
-		(property "Sheetname" "12V_5V"
+		(property "Sheetname" "12V_3V3"
 			(at 76.2 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -226,8 +226,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "12V_5V.kicad_sch"
-			(at 76.2 80.5946 0)
+		(property "Sheetfile" "12V_3V3.kicad_sch"
+			(at 76.2 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -237,19 +237,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_OUT" output
-			(at 115.57 60.96 0)
-			(uuid "aaee4dd1-7969-498c-9d5c-25bbe4b90919")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "12V_IN" input
-			(at 76.2 60.96 180)
-			(uuid "414a20e6-62ea-4849-95eb-8b2927bdebde")
+			(at 76.2 55.88 180)
+			(uuid "081d04bf-fa74-40fe-84e6-f950b6bfe07c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,9 +247,19 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_OUT" output
+			(at 101.6 55.88 0)
+			(uuid "b305ce7c-5c9c-4602-9b0e-7e44a5dd2bb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "GND_IN" input
-			(at 76.2 69.85 180)
-			(uuid "21fc63b8-b7c8-48d4-8dd1-cc77de7e1342")
+			(at 76.2 60.96 180)
+			(uuid "1f200623-655b-4200-94e0-1a4ff9127fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,8 +268,8 @@
 			)
 		)
 		(pin "GND_OUT" output
-			(at 115.57 69.85 0)
-			(uuid "4274f421-7d0e-42df-b789-3f649c5f3579")
+			(at 101.6 60.96 0)
+			(uuid "9c3f4914-81b6-4870-af87-04d570773fe1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,6 +281,138 @@
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 82.55)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc1df04d-41c1-44eb-b11f-072746bfa742")
+		(property "Sheetname" "数码管_按钮"
+			(at 88.9 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "数码管_按钮.kicad_sch"
+			(at 88.9 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ebc9d23c-4131-4c15-866f-2eb222d4508c")
+		(property "Sheetname" "12V_5V"
+			(at 127 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V_5V.kicad_sch"
+			(at 127 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_OUT" output
+			(at 152.4 55.88 0)
+			(uuid "65765488-2bef-4a19-9187-cd57ee154845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_IN" input
+			(at 127 55.88 180)
+			(uuid "7d349e25-6818-49ac-8014-4a0277cf0456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_IN" input
+			(at 127 60.96 180)
+			(uuid "e5439ff3-e01a-41d0-8099-10ae8a96e854")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUT" output
+			(at 152.4 60.96 0)
+			(uuid "54e8e373-ed75-479a-ab35-3503f37fe613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
+					(page "3")
 				)
 			)
 		)

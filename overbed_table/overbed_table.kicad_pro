@@ -661,7 +661,7 @@
         "uuid": "ea72387d-aa38-4027-b8fe-1f6fcfee6654"
       }
     ],
-    "used_designators": "L1,#PWR1-5,U1,C1-6,#FLG1-4,R1-4",
+    "used_designators": "L1-3,#PWR1-5,U1-4,C1-13,#FLG1-7,R1-5",
     "variants": []
   },
   "sheets": [
@@ -671,7 +671,15 @@
     ],
     [
       "58200068-4715-4e07-a2e5-d4af79047f28",
+      "12V_3V3"
+    ],
+    [
+      "ebc9d23c-4131-4c15-866f-2eb222d4508c",
       "12V_5V"
+    ],
+    [
+      "bc1df04d-41c1-44eb-b11f-072746bfa742",
+      "数码管_按钮"
     ]
   ],
   "text_variables": {},
