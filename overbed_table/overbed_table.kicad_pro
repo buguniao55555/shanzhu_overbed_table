@@ -611,14 +611,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,8 +691,12 @@
         "uuid": "ea72387d-aa38-4027-b8fe-1f6fcfee6654"
       }
     ],
-    "used_designators": "D1-7,C1-25,L1-3,#PWR1-20,U1-6,Q1-2,TP1-2,R1-13,LED1-3,#FLG1-10,SW1-12",
-    "variants": []
+    "used_designators": "#PWR1-88,L1-4,D1-8,C1-45,U1-20,Q1-5,TP1-14,#FLG1-17,R1-45,LED1-3,SW1-15,J1-2,CN1-5,FPC1-3,X1-4,H1-2",
+    "variants": [
+      {
+        "name": "manufacture"
+      }
+    ]
   },
   "sheets": [
     [
@@ -678,7 +712,7 @@
       "12V_5V"
     ],
     [
-      "bc1df04d-41c1-44eb-b11f-072746bfa742",
+      "46dee3d9-249f-4bda-affb-ec62890f9694",
       "数码管_按钮"
     ],
     [
@@ -686,12 +720,40 @@
       "3V3_5V_转换器"
     ],
     [
-      "7f0a582c-147f-4902-afa9-3f3f4d503f7d",
+      "1dc06039-4b69-44c2-87eb-40ad9f73dc1f",
+      "升降电机驱动"
+    ],
+    [
+      "d705d72d-6af5-49ee-88bf-1e4529770c85",
       "步进驱动"
     ],
     [
-      "72c1f0e7-3acc-47f1-8b44-7371c7e3ba24",
-      "升降电机驱动"
+      "b5ed6973-3a09-4d33-a4c2-c56b7eccd283",
+      "RS485_ESP32"
+    ],
+    [
+      "48104a04-8800-4cb3-95c2-22e9c067a56e",
+      "RS485_PY32"
+    ],
+    [
+      "ebda6ccb-0731-4268-84f3-ea7ec6740050",
+      "TOF"
+    ],
+    [
+      "0380579e-b79a-4e8a-a9ec-c37fa11adc90",
+      "LED灯驱动"
+    ],
+    [
+      "b9cbf163-1205-4f17-a4d6-b209698cb1b8",
+      "LED灯驱动1"
+    ],
+    [
+      "b523bb51-cc79-4ec2-962a-375203670b5b",
+      "12V_3V3"
+    ],
+    [
+      "f23aadba-fa83-4294-bb42-1682d33db095",
+      "桌脚小板"
     ]
   ],
   "text_variables": {},
