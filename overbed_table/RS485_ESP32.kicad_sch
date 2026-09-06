@@ -2124,7 +2124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "390"
 			(at 176.53 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8198344d-897e-473a-8455-b3d70d03c5a1")
+	(uuid "2752c70f-b22b-4a9e-928b-cd309a1aedd3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1891,7 +1891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "4.7uF"
 			(at 60.96 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)

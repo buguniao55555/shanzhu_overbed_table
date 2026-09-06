@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ffdb8271-1ef9-4b85-91f0-b1052adc66b6")
+	(uuid "87a3529b-d946-4747-839a-74aa284fa7f4")
 	(paper "A4")
 	(lib_symbols
 		(symbol "PCM_SparkFun-Resistor:R"

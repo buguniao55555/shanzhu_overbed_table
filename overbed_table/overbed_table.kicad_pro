@@ -691,7 +691,7 @@
         "uuid": "ea72387d-aa38-4027-b8fe-1f6fcfee6654"
       }
     ],
-    "used_designators": "#PWR1-88,L1-4,D1-8,C1-45,U1-20,Q1-5,TP1-14,#FLG1-17,R1-45,LED1-3,SW1-15,J1-2,CN1-5,FPC1-3,X1-4,H1-2",
+    "used_designators": "#PWR1-97,L1-4,D1-8,C1-48,U1-21,Q1-5,TP1-20,#FLG1-17,R1-49,LED1-3,SW1-16,J1-2,CN1-5,FPC1-3,X1-4,H1-3",
     "variants": [
       {
         "name": "manufacture"
