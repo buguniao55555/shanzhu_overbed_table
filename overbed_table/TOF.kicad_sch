@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2752c70f-b22b-4a9e-928b-cd309a1aedd3")
+	(uuid "fc8cf8f5-93b6-480c-ad9b-9c0c3e55227b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1627,7 +1627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0440ea60-faad-4a7a-ba46-810228f643b4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR049"
 			(at 63.5 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -1682,12 +1682,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b4cea2d-769c-489b-b199-8f8ccc52e58a")
+			(uuid "9b52f32b-eec4-454a-a5ed-594d8669a141")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "#PWR0141")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "#PWR072")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1705,7 +1709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13a61b52-31a8-4dd3-b894-4a1054caa0c0")
-		(property "Reference" "C40"
+		(property "Reference" "C36"
 			(at 46.99 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.1452 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -1760,16 +1764,86 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d87c2ebd-67d5-451e-90be-2b94d90dd0ea")
+			(uuid "5f494c2f-8183-44bb-a4fb-ada3d144edb2")
 		)
 		(pin "2"
-			(uuid "2bce5003-e081-4d38-a2b9-73f61674d26f")
+			(uuid "999e0e3a-cd93-40a2-a84a-760756d9bca5")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "C68")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "C40")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49420317-850f-4eb1-be6f-c50b4e02ed58")
-		(property "Reference" "R40"
+		(property "Reference" "R32"
 			(at 99.06 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,16 +1927,86 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 96.52 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "6f2782b0-918f-48b7-ac92-9bcc9358a291")
+			(uuid "2006c1bb-77a0-4126-810f-05af2007c726")
 		)
 		(pin "1"
-			(uuid "5ee9a29d-9a53-4ec4-b1be-38fb5006db4c")
+			(uuid "9dd799e2-4e0b-4599-86b9-1572deee2d3f")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "R69")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "R40")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1880,7 +2024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c89641-c5fa-464a-beff-442c245c704c")
-		(property "Reference" "C41"
+		(property "Reference" "C37"
 			(at 60.96 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +2046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -1935,16 +2079,86 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d87c2ebd-67d5-451e-90be-2b94d90dd0ea")
+			(uuid "eeb8fd2e-d28e-424d-84c6-398c85ac6f73")
 		)
 		(pin "2"
-			(uuid "2bce5003-e081-4d38-a2b9-73f61674d26f")
+			(uuid "78169c91-bbca-4e74-985e-c6eea350f8d9")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "C69")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "C41")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -1962,7 +2176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b64b725-96c2-41e4-8f4c-41b85d2fa5a0")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR051"
 			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2017,12 +2231,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa2914e1-7a88-4995-9bd9-31d25740ee2b")
+			(uuid "fb8a02ea-2267-417e-beb1-177e20f812c3")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "#PWR0143")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "#PWR074")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2040,7 +2258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2b926f-f16a-4e3f-8cc4-21c0d1324526")
-		(property "Reference" "U14"
+		(property "Reference" "U17"
 			(at 143.51 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,46 +2313,116 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
-			(uuid "167c3afb-ed0a-4b20-ad08-6af24870bc01")
+			(uuid "6ea2fd84-a974-4084-83c2-31d5811c6450")
 		)
 		(pin "3"
-			(uuid "f9826271-8ffa-44fc-a986-e5bfce254432")
+			(uuid "8f7fa71f-b430-41ec-8e0b-e8a0f13b5172")
 		)
 		(pin "11"
-			(uuid "5c47e964-a243-45fa-81ea-45844c9eae17")
+			(uuid "c774f6f4-1e40-4e45-b530-412c0ea879c1")
 		)
 		(pin "4"
-			(uuid "52f55030-c10c-4c9b-9ff8-fb2844bb1f2c")
+			(uuid "c5f2d4c4-267a-4ced-a816-0958e77885ac")
 		)
 		(pin "8"
-			(uuid "8e013826-c584-4749-be6f-fdee4455a621")
+			(uuid "6fc2c427-882a-4879-91d1-410ead6eb8ee")
 		)
 		(pin "6"
-			(uuid "e54ea69e-2fbc-4713-931f-86019a5d58ea")
+			(uuid "e2ccd2f6-d12e-4c14-9117-faef6e5ec817")
 		)
 		(pin "12"
-			(uuid "b8cb0182-ea35-4b19-9476-cc7acef39d1f")
+			(uuid "389ab33c-6a2e-445b-b0d7-a56567862231")
 		)
 		(pin "10"
-			(uuid "8b82e750-3cdf-42e4-93a0-bd2e619cdeed")
+			(uuid "ce3838e4-0c79-4795-80a9-6a9d33e2fe82")
 		)
 		(pin "1"
-			(uuid "1a40dbfe-dc9a-4a34-8d88-9ee0ad90141d")
+			(uuid "80369bb6-f87b-4c06-b82a-f4cfa04be358")
 		)
 		(pin "9"
-			(uuid "86f8a179-c022-4ad8-8f08-c10d861f0fc9")
+			(uuid "a35e41d1-0ecc-4935-ba00-9bbad4652b23")
 		)
 		(pin "7"
-			(uuid "f26d9c3a-6eba-4b8d-863d-56f338b87018")
+			(uuid "f8155580-b716-4e7f-a960-180f01b936d1")
 		)
 		(pin "2"
-			(uuid "ed4b0cf7-7a51-4dad-bfff-3e95a4313492")
+			(uuid "3d2b728b-46c0-4aa1-9226-f70743bde504")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "U32")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "U14")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e3ba43-8c5b-4215-8665-863819d59722")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 119.38 87.63 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2206,13 +2494,83 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "275ab1ba-2a30-43cb-add5-587fdadd6ff1")
+			(uuid "224f21d4-ead1-4cdd-98a7-9aefcd7bdec0")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "TP34")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ff08e3-c803-4297-ad88-14b83f2b191a")
-		(property "Reference" "TP14"
+		(property "Reference" "TP11"
 			(at 80.01 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2284,13 +2642,83 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 80.01 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "b130c2a1-4cc9-4176-bc98-deb448b20299")
+			(uuid "05d9a188-e673-4b68-9b21-3ddebb14a91d")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "TP32")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "TP14")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746d5e29-ab9c-4a08-aed1-d45fa2ebc8a0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR048"
 			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2363,12 +2791,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3a68be2-59bd-4821-8dfc-4b0b5760ee9f")
+			(uuid "ea589727-7e70-4bce-bcd5-3c783b3fab0d")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "#PWR0140")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "#PWR071")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d98886-4368-4c5c-93fc-fbf575996c02")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR050"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2441,12 +2873,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc24c6e7-8fbf-40d0-a6c8-cb1c0e9b4175")
+			(uuid "a0d2d857-cfb1-4508-b12f-9443b2a513f0")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "#PWR0142")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "#PWR073")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a53aeb-d2a5-453c-a176-e5d64f2f8b0e")
-		(property "Reference" "R41"
+		(property "Reference" "R33"
 			(at 109.22 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,16 +2966,86 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 106.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "1563dd45-6439-4d28-904b-4c025a9adc37")
+			(uuid "41bec6dc-f486-419e-8d8c-58d3866dfa18")
 		)
 		(pin "1"
-			(uuid "82444d79-a740-4275-90a7-4cf89c8d0eda")
+			(uuid "00670b97-cac4-4214-a08e-8319e5351199")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "R70")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "R41")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2557,7 +3063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baac0c50-4ffd-41f4-b2e8-c30af113df2e")
-		(property "Reference" "R39"
+		(property "Reference" "R34"
 			(at 121.92 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2623,16 +3129,86 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 119.38 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "fa72cbfa-dd08-4d8e-99ee-345ff896fde8")
+			(uuid "3cdb576d-d608-4871-bdbb-ee784e3134f3")
 		)
 		(pin "1"
-			(uuid "5058b2e3-6c59-4168-8f54-c10fa7488e92")
+			(uuid "817ba2aa-5444-42b1-b657-f3c99c0bf01d")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "R71")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "R39")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2650,7 +3226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba2e531-fa3a-4c0f-81c4-ef7e4deeb25d")
-		(property "Reference" "TP13"
+		(property "Reference" "TP12"
 			(at 88.9 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2704,13 +3280,83 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ae329e63-1167-4174-9ac1-21aaaa019bae")
+			(uuid "aad03d86-03d1-4954-bbcc-8862142c3511")
 		)
 		(instances
 			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/ebda6ccb-0731-4268-84f3-ea7ec6740050"
+					(reference "TP33")
+					(unit 1)
+				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/ebda6ccb-0731-4268-84f3-ea7ec6740050"
-					(reference "TP13")
+					(reference "TP12")
 					(unit 1)
 				)
 			)

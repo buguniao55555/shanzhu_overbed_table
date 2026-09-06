@@ -641,6 +641,42 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "功率",
+          "name": "功率",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "精度",
+          "name": "精度",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "耐压",
+          "name": "耐压",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR",
+          "name": "ESR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IDC",
+          "name": "IDC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -691,7 +727,7 @@
         "uuid": "ea72387d-aa38-4027-b8fe-1f6fcfee6654"
       }
     ],
-    "used_designators": "#PWR1-97,L1-4,D1-8,C1-48,U1-21,Q1-5,TP1-20,#FLG1-17,R1-49,LED1-3,SW1-16,J1-2,CN1-5,FPC1-3,X1-4,H1-3",
+    "used_designators": "#PWR1-153,L1-7,D1-9,C1-79,U1-37,Q1-7,TP1-35,#FLG1-17,R1-81,LED1-3,SW1-18,J1-2,CN1-11,FPC1-3,X1-6,H1-3,F1-5",
     "variants": [
       {
         "name": "manufacture"
@@ -752,8 +788,36 @@
       "12V_3V3"
     ],
     [
+      "9fa5aece-105e-4357-8f5a-b604ad0fd05e",
+      "桌脚小板_2"
+    ],
+    [
       "f23aadba-fa83-4294-bb42-1682d33db095",
-      "桌脚小板"
+      "桌脚小板_1"
+    ],
+    [
+      "d705d72d-6af5-49ee-88bf-1e4529770c85",
+      "步进驱动"
+    ],
+    [
+      "ebda6ccb-0731-4268-84f3-ea7ec6740050",
+      "TOF"
+    ],
+    [
+      "b523bb51-cc79-4ec2-962a-375203670b5b",
+      "12V_3V3"
+    ],
+    [
+      "1dc06039-4b69-44c2-87eb-40ad9f73dc1f",
+      "升降电机驱动"
+    ],
+    [
+      "48104a04-8800-4cb3-95c2-22e9c067a56e",
+      "RS485_PY32"
+    ],
+    [
+      "56cc2ba5-153a-4162-9f16-3ab498c0012f",
+      "LED灯驱动2"
     ]
   ],
   "text_variables": {},

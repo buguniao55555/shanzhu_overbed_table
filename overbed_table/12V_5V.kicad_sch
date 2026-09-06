@@ -160,184 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -471,6 +293,175 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:FXL0630-3R3-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FXL0630-3R3-M"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C167219_IND-SMD_L7_0-W6_6"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404260921_cjiang--Changjiang-Microelectronics-Tech-FXL0630-3R3-M_C167219.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "FXL0630-3R3-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C167219"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "cjiang(长江微电)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FXL0630-3R3-M_1_1"
+				(arc
+					(start -4.2883 0.0173)
+					(mid -3.2762 1.0999)
+					(end -2.2652 0.0163)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.1336 0.018)
+					(mid -1.1213 1.1006)
+					(end -0.1105 0.0168)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.017 0.018)
+					(mid 1.0293 1.1006)
+					(end 2.0401 0.0168)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.2098 0.0175)
+					(mid 3.2221 1.1001)
+					(end 4.2329 0.0163)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 0.762)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.762)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -706,12 +697,6 @@
 		)
 	)
 	(junction
-		(at 209.55 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bea33d8-2f6f-4baa-a34b-e19576011a9e")
-	)
-	(junction
 		(at 91.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -722,6 +707,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aec6cff-7bd2-4aa7-a512-0e55da1eaa71")
+	)
+	(junction
+		(at 181.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480b572f-8a81-4f8a-86a9-5966da53b19d")
 	)
 	(junction
 		(at 80.01 111.76)
@@ -751,7 +742,7 @@
 		(at 165.1 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93432b5b-a500-43ec-a544-c1c304083a88")
+		(uuid "acbab577-416b-4c23-b082-79441311fe4e")
 	)
 	(junction
 		(at 181.61 111.76)
@@ -764,12 +755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c839dd-8dd8-4388-b930-9e51695456a0")
-	)
-	(junction
-		(at 181.61 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df3e5d79-fb1b-4143-8cee-606ad7c8e792")
 	)
 	(junction
 		(at 91.44 111.76)
@@ -821,16 +806,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 72.39) (xy 176.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1876c2c7-6783-4701-80ff-0089b6f1af2f")
-	)
-	(wire
-		(pts
 			(xy 181.61 106.68) (xy 181.61 111.76)
 		)
 		(stroke
@@ -858,16 +833,6 @@
 			(type default)
 		)
 		(uuid "274387a2-8722-4623-a2b1-6fdaa3c04a41")
-	)
-	(wire
-		(pts
-			(xy 209.55 111.76) (xy 224.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333d1e27-ded6-492a-8846-e1cfc8dc17ca")
 	)
 	(wire
 		(pts
@@ -901,16 +866,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 168.91 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e215e9c-2e5b-4b3c-8c61-0237b5d672ef")
-	)
-	(wire
-		(pts
 			(xy 144.78 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -941,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 181.61 93.98)
+			(xy 181.61 96.52) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1011,6 +966,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76729eef-7ee6-4930-92a7-e83a962c9b2a")
+	)
+	(wire
+		(pts
 			(xy 165.1 83.82) (xy 165.1 72.39)
 		)
 		(stroke
@@ -1018,6 +983,16 @@
 			(type default)
 		)
 		(uuid "76a5b16b-29fe-4776-aa1d-6795d937337f")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aef801a-3712-43c2-853d-fa594428c3e3")
 	)
 	(wire
 		(pts
@@ -1041,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 72.39)
+			(xy 181.61 81.28) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1230,18 +1205,7 @@
 		(uuid "fc8b43ad-6c24-4d49-8c04-8919c5d199c9")
 	)
 	(hierarchical_label "GND"
-		(shape output)
-		(at 224.79 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52781137-869c-421f-a922-85991e0e6f60")
-	)
-	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 68.58 111.76 180)
 		(effects
 			(font
@@ -1275,7 +1239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 90.17 0)
+		(at 181.61 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1285,8 +1249,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e994028-6723-40e7-968e-dee0a40beeff")
-		(property "Reference" "R1"
-			(at 184.15 88.8999 0)
+		(property "Reference" "R9"
+			(at 184.15 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1297,7 +1261,7 @@
 			)
 		)
 		(property "Value" "56.2k"
-			(at 184.15 91.4399 0)
+			(at 184.15 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1307,8 +1271,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C90061_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR"
-			(at 179.832 90.17 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,7 +1283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 90.17 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1330,7 +1294,73 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 90.17 0)
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "功率" ""
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 181.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1349,7 +1379,109 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "R1")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:FXL0630-3R3-M")
+		(at 172.72 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fd63ec3-a542-4d5a-a141-ce6f7f2c0e13")
+		(property "Reference" "L2"
+			(at 172.72 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FXL0630-3R3-M"
+			(at 172.72 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C167219_IND-SMD_L7_0-W6_6"
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404260921_cjiang--Changjiang-Microelectronics-Tech-FXL0630-3R3-M_C167219.pdf"
+			(at 170.434 72.263 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FXL0630-3R3-M"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C167219"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang(长江微电)"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04626878-0ab6-4474-8e4a-c6323d5cbb63")
+		)
+		(pin "2"
+			(uuid "8d21e50f-8807-4755-bde1-3dcb09273071")
+		)
+		(instances
+			(project "overbed_table"
+				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1367,7 +1499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7629f74f-22fe-49fe-ac1b-4b5168812022")
-		(property "Reference" "U2"
+		(property "Reference" "U11"
 			(at 132.08 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1442,6 +1574,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba47c8f4-1b5c-4390-8b66-c7335fb4f030")
 		)
@@ -1463,7 +1661,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "U2")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1481,7 +1679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81da24e6-0fbb-4e10-9d11-ca383cf24c93")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 184.15 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1503,7 +1701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -1536,6 +1734,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" ""
+			(at 181.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64a9ef65-4e2b-4b78-8891-e9f86ee80e12")
 		)
@@ -1545,7 +1809,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1563,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e9c1095-6bf0-42e1-887c-519810c19c56")
-		(property "Reference" "C9"
+		(property "Reference" "C17"
 			(at 201.93 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +1849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.0852 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1618,6 +1882,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" "10V"
+			(at 198.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fa85ae3-ddec-40f1-bc05-45d16e55b64f")
 		)
@@ -1627,7 +1957,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "C9")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d8ba09-7a15-4502-9717-278fc7d8d415")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 83.82 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +1997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.9752 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1700,6 +2030,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" "25V"
+			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fa85ae3-ddec-40f1-bc05-45d16e55b650")
 		)
@@ -1709,7 +2105,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -1727,7 +2123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d62607-8a2d-4153-a044-94c20c3db55a")
-		(property "Reference" "C8"
+		(property "Reference" "C15"
 			(at 95.25 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1749,7 +2145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1782,6 +2178,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" "25V"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fa85ae3-ddec-40f1-bc05-45d16e55b651")
 		)
@@ -1791,87 +2253,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 172.72 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e79d74b4-927c-496a-abd6-b691f58822aa")
-		(property "Reference" "L2"
-			(at 172.72 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3uH"
-			(at 172.72 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99e5929f-0113-4c16-8406-53d3c636c187")
-		)
-		(pin "1"
-			(uuid "a5f46477-de80-4964-88d1-27cfbd7e3df1")
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "L2")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1889,7 +2271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7e9693d-13d6-4f7b-9e1b-9a646b4a41ee")
-		(property "Reference" "C10"
+		(property "Reference" "C18"
 			(at 213.36 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +2293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.5152 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1944,6 +2326,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" "10V"
+			(at 209.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fa85ae3-ddec-40f1-bc05-45d16e55b652")
 		)
@@ -1953,7 +2401,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "C10")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1971,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd90cf8d-0009-4094-bb92-df4dec5b6d41")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 156.21 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +2439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.02 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -2024,6 +2472,72 @@
 				)
 			)
 		)
+		(property "功率" ""
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" ""
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IDC" ""
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "精度" ""
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "耐压" "25V"
+			(at 156.21 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fa85ae3-ddec-40f1-bc05-45d16e55b653")
 		)
@@ -2033,7 +2547,7 @@
 		(instances
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/ebc9d23c-4131-4c15-866f-2eb222d4508c"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
