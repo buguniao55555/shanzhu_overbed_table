@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "fc8cf8f5-93b6-480c-ad9b-9c0c3e55227b")
+	(uuid "6cb66c54-c1c0-4113-9e92-873982f28527")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -2280,7 +2280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Distance:ST_VL53L1x"
+		(property "Footprint" "OptoDevice:ST_VL53L0X"
 			(at 151.765 115.57 0)
 			(hide yes)
 			(show_name no)

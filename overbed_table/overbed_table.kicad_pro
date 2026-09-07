@@ -655,10 +655,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "耐压",
           "name": "耐压",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
