@@ -1433,35 +1433,14 @@
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/58200068-4715-4e07-a2e5-d4af79047f28"
 					(reference "C8")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/b523bb51-cc79-4ec2-962a-375203670b5b"
 					(reference "C70")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/b523bb51-cc79-4ec2-962a-375203670b5b"
 					(reference "C38")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 			)
 		)
@@ -1610,35 +1589,14 @@
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/58200068-4715-4e07-a2e5-d4af79047f28"
 					(reference "C9")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/9fa5aece-105e-4357-8f5a-b604ad0fd05e/b523bb51-cc79-4ec2-962a-375203670b5b"
 					(reference "C71")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654/f23aadba-fa83-4294-bb42-1682d33db095/b523bb51-cc79-4ec2-962a-375203670b5b"
 					(reference "C39")
 					(unit 1)
-					(variant
-						(name "manufacture")
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0603_1608Metric")
-						)
-					)
 				)
 			)
 		)
