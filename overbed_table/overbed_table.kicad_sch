@@ -5580,6 +5580,12 @@
 		(uuid "1dae5d68-775e-4bce-ab01-687e27c6b448")
 	)
 	(junction
+		(at 67.31 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cb8b19-6923-4f5b-a361-78f972392ff1")
+	)
+	(junction
 		(at 142.24 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5598,7 +5604,7 @@
 		(uuid "29876321-eecd-44e9-a660-e17dd3006e6c")
 	)
 	(junction
-		(at 247.65 73.66)
+		(at 247.65 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b814816-49bd-476e-b814-1efd336d34e1")
@@ -5640,7 +5646,7 @@
 		(uuid "4c6d0340-6aac-4d64-908f-f61eff6d84a8")
 	)
 	(junction
-		(at 247.65 35.56)
+		(at 247.65 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5338593f-c11b-461c-b3b8-9c827b73c1e1")
@@ -5748,12 +5754,6 @@
 		(uuid "cf758257-9c4a-4b50-a655-1e8e4fd78cb2")
 	)
 	(junction
-		(at 67.31 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d221046a-8f8e-4de6-a600-a61a1d2037ed")
-	)
-	(junction
 		(at 138.43 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5772,7 +5772,7 @@
 		(uuid "e0d26634-5432-4b3e-80f0-ae73a6fb2771")
 	)
 	(junction
-		(at 247.65 55.88)
+		(at 247.65 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3e86ca9-fc7f-47ea-a582-d555d1d44ce2")
@@ -5816,11 +5816,11 @@
 		(uuid "88473baf-5a95-4622-aa04-b5981e1f9fbd")
 	)
 	(no_connect
-		(at 52.07 176.53)
+		(at 52.07 171.45)
 		(uuid "98e2f339-824e-4ed2-87f0-7512f356a6ce")
 	)
 	(no_connect
-		(at 52.07 171.45)
+		(at 52.07 166.37)
 		(uuid "b470a8aa-0615-43dd-bd46-a4c961050101")
 	)
 	(wire
@@ -6015,16 +6015,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 58.42) (xy 271.78 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a14259e-98ee-4873-9b99-507d8591d706")
-	)
-	(wire
-		(pts
 			(xy 80.01 124.46) (xy 80.01 129.54)
 		)
 		(stroke
@@ -6075,6 +6065,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 166.37) (xy 62.23 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214932ce-515e-4cef-ad4c-9c6265a0bb20")
+	)
+	(wire
+		(pts
 			(xy 81.28 66.04) (xy 87.63 66.04)
 		)
 		(stroke
@@ -6085,6 +6085,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 78.74) (xy 271.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2297d479-628a-4285-ad25-6e2ba0338f47")
+	)
+	(wire
+		(pts
 			(xy 34.29 121.92) (xy 35.56 121.92)
 		)
 		(stroke
@@ -6092,16 +6102,6 @@
 			(type default)
 		)
 		(uuid "22f9733a-090b-46bf-88da-82e247552084")
-	)
-	(wire
-		(pts
-			(xy 237.49 76.2) (xy 271.78 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24016817-aca2-4a28-b754-535cefb30e1c")
 	)
 	(wire
 		(pts
@@ -6152,16 +6152,6 @@
 			(type default)
 		)
 		(uuid "276b7c92-74d9-413b-986b-80538b6bc805")
-	)
-	(wire
-		(pts
-			(xy 247.65 35.56) (xy 247.65 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28981092-1ad8-471f-9fd5-3c7f3b181fbd")
 	)
 	(wire
 		(pts
@@ -6222,16 +6212,6 @@
 			(type default)
 		)
 		(uuid "2d283327-8fe0-47b0-a482-603c6bc7c4b3")
-	)
-	(wire
-		(pts
-			(xy 67.31 176.53) (xy 62.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa280ee-431c-4db9-bf29-c4d39f244b0b")
 	)
 	(wire
 		(pts
@@ -6385,16 +6365,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 247.65 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4654cbab-7717-47ea-ad1b-d64c1d1688de")
-	)
-	(wire
-		(pts
 			(xy 33.02 46.99) (xy 33.02 85.09)
 		)
 		(stroke
@@ -6485,7 +6455,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 73.66) (xy 251.46 73.66)
+			(xy 247.65 78.74) (xy 251.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6572,16 +6542,6 @@
 			(type default)
 		)
 		(uuid "5e6f7369-7662-405c-9023-373bfadeb3c4")
-	)
-	(wire
-		(pts
-			(xy 247.65 55.88) (xy 247.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61edd5c7-0e17-4953-bbdc-0f914610c94d")
 	)
 	(wire
 		(pts
@@ -6775,6 +6735,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 60.96) (xy 271.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7908a8f9-f502-4111-9f8c-176a863246a7")
+	)
+	(wire
+		(pts
 			(xy 80.01 115.57) (xy 80.01 121.92)
 		)
 		(stroke
@@ -6815,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 35.56) (xy 251.46 35.56)
+			(xy 247.65 40.64) (xy 251.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6882,16 +6852,6 @@
 			(type default)
 		)
 		(uuid "8a3219c0-ee06-4bba-923f-58d5ea76cbd8")
-	)
-	(wire
-		(pts
-			(xy 62.23 171.45) (xy 81.28 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8c51d6-ef19-4c6e-b974-505656768f37")
 	)
 	(wire
 		(pts
@@ -6975,16 +6935,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 55.88) (xy 271.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ae516b-e376-45a8-8350-0e2b504dbe7c")
-	)
-	(wire
-		(pts
 			(xy 250.19 143.51) (xy 250.19 146.05)
 		)
 		(stroke
@@ -7002,6 +6952,16 @@
 			(type default)
 		)
 		(uuid "9be2c8ad-3840-46c3-b36e-220a8ea58c17")
+	)
+	(wire
+		(pts
+			(xy 237.49 76.2) (xy 271.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8203aa-e45d-4274-b23f-3dce7c09806f")
 	)
 	(wire
 		(pts
@@ -7032,6 +6992,16 @@
 			(type default)
 		)
 		(uuid "9d8da206-3a56-46f9-8a78-ce1fddcf08ca")
+	)
+	(wire
+		(pts
+			(xy 269.24 40.64) (xy 271.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0411c7-3c42-47fe-903a-83a2cef31645")
 	)
 	(wire
 		(pts
@@ -7125,16 +7095,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 35.56) (xy 271.78 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a779d7d3-8d4a-487d-b6aa-5ce8321e0dc5")
-	)
-	(wire
-		(pts
 			(xy 271.78 135.89) (xy 245.11 135.89)
 		)
 		(stroke
@@ -7172,16 +7132,6 @@
 			(type default)
 		)
 		(uuid "aad5325f-f0c9-4341-b9d6-43593abe11ae")
-	)
-	(wire
-		(pts
-			(xy 237.49 38.1) (xy 271.78 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab16d464-7d95-4d5c-8a74-98f2db694c2a")
 	)
 	(wire
 		(pts
@@ -7322,6 +7272,16 @@
 			(type default)
 		)
 		(uuid "c03b59f6-7c10-4b51-8a24-135e945940e8")
+	)
+	(wire
+		(pts
+			(xy 67.31 171.45) (xy 81.28 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e7f6df-00b7-47c4-9131-62367ab144be")
 	)
 	(wire
 		(pts
@@ -7525,6 +7485,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 29.21) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60c7cbe-3a27-4353-9918-d3093e7c0555")
+	)
+	(wire
+		(pts
 			(xy 200.66 76.2) (xy 214.63 76.2)
 		)
 		(stroke
@@ -7545,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 251.46 55.88)
+			(xy 247.65 60.96) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7605,7 +7575,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 176.53) (xy 67.31 184.15)
+			(xy 64.77 166.37) (xy 64.77 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7755,6 +7725,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 171.45) (xy 67.31 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4940ad4-1d8c-4a62-b3b8-8b5f81a41284")
+	)
+	(wire
+		(pts
+			(xy 237.49 58.42) (xy 271.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51b401c-1d58-4496-9e6b-fb1575f8064e")
+	)
+	(wire
+		(pts
 			(xy 113.03 48.26) (xy 78.74 48.26)
 		)
 		(stroke
@@ -7772,6 +7762,16 @@
 			(type default)
 		)
 		(uuid "f63b35e9-8cf3-4308-89e0-cbcc31f2fe0d")
+	)
+	(wire
+		(pts
+			(xy 237.49 38.1) (xy 271.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c13460-747f-4985-92e0-273d6eb88f65")
 	)
 	(wire
 		(pts
@@ -7842,16 +7842,6 @@
 			(type default)
 		)
 		(uuid "fca924b1-4aee-4ae1-bc51-9a51531998d3")
-	)
-	(wire
-		(pts
-			(xy 269.24 73.66) (xy 271.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd32c826-45e5-4ce3-b61c-22235bc2b9dc")
 	)
 	(wire
 		(pts
@@ -8338,7 +8328,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:DLL-5569-2AW")
-		(at 276.86 57.15 0)
+		(at 276.86 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8348,7 +8338,7 @@
 		(dnp no)
 		(uuid "03312606-9bfd-424a-b78b-69db660ed108")
 		(property "Reference" "CN9"
-			(at 280.67 55.8799 0)
+			(at 280.67 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8359,7 +8349,7 @@
 			)
 		)
 		(property "Value" "DLL-5569-2AW"
-			(at 268.986 63.246 0)
+			(at 268.986 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8370,7 +8360,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22365654_CONN-TH_DLL-5569-2AW-GOLD-GR"
-			(at 276.86 67.31 0)
+			(at 276.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,7 +8371,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403221555_DLL-DLL-5569-2AW_C22365654.pdf"
-			(at 274.574 57.023 0)
+			(at 274.574 59.563 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +8382,7 @@
 			)
 		)
 		(property "Description" "DLL-5569-2AW"
-			(at 276.86 57.15 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8393,7 @@
 			)
 		)
 		(property "LCSC" "C22365654"
-			(at 276.86 57.15 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8404,7 @@
 			)
 		)
 		(property "Manufacturer" "DLL(德利)"
-			(at 276.86 57.15 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +8658,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:BSMD2920-500-24V")
-		(at 261.62 55.88 0)
+		(at 261.62 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8679,7 +8669,7 @@
 		(fields_autoplaced yes)
 		(uuid "05759458-1197-4a86-9ea7-0c49550c75a9")
 		(property "Reference" "U5"
-			(at 260.35 48.26 0)
+			(at 260.35 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8689,7 +8679,7 @@
 			)
 		)
 		(property "Value" "BSMD2920-500-24V"
-			(at 260.35 50.8 0)
+			(at 260.35 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8699,7 +8689,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C20539727_F2920"
-			(at 261.62 66.04 0)
+			(at 261.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8710,7 +8700,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404101505_BHFUSE-BSMD2920-500-24V_C20539727.pdf"
-			(at 259.334 55.753 0)
+			(at 259.334 60.833 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +8711,7 @@
 			)
 		)
 		(property "Description" "BSMD2920-500-24V"
-			(at 261.62 55.88 0)
+			(at 261.62 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +8722,7 @@
 			)
 		)
 		(property "LCSC" "C20539727"
-			(at 261.62 55.88 0)
+			(at 261.62 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,7 +8733,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 261.62 55.88 0)
+			(at 261.62 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:BSMD2920-500-24V")
-		(at 261.62 73.66 0)
+		(at 261.62 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9018,7 +9008,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ae18156-71b4-4625-a6d2-6a59a21014d4")
 		(property "Reference" "U6"
-			(at 260.35 66.04 0)
+			(at 260.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9028,7 +9018,7 @@
 			)
 		)
 		(property "Value" "BSMD2920-500-24V"
-			(at 260.35 68.58 0)
+			(at 260.35 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9038,7 +9028,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C20539727_F2920"
-			(at 261.62 83.82 0)
+			(at 261.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9039,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404101505_BHFUSE-BSMD2920-500-24V_C20539727.pdf"
-			(at 259.334 73.533 0)
+			(at 259.334 78.613 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +9050,7 @@
 			)
 		)
 		(property "Description" "BSMD2920-500-24V"
-			(at 261.62 73.66 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9061,7 @@
 			)
 		)
 		(property "LCSC" "C20539727"
-			(at 261.62 73.66 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +9072,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 261.62 73.66 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,7 +10101,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:BSMD2920-500-24V")
-		(at 261.62 35.56 0)
+		(at 261.62 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10122,7 +10112,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b2e49e9-f4d4-4ec9-ac2d-e1de6680137e")
 		(property "Reference" "U4"
-			(at 260.35 27.94 0)
+			(at 260.35 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10122,7 @@
 			)
 		)
 		(property "Value" "BSMD2920-500-24V"
-			(at 260.35 30.48 0)
+			(at 260.35 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10142,7 +10132,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C20539727_F2920"
-			(at 261.62 45.72 0)
+			(at 261.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10153,7 +10143,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404101505_BHFUSE-BSMD2920-500-24V_C20539727.pdf"
-			(at 259.334 35.433 0)
+			(at 259.334 40.513 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10164,7 +10154,7 @@
 			)
 		)
 		(property "Description" "BSMD2920-500-24V"
-			(at 261.62 35.56 0)
+			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +10165,7 @@
 			)
 		)
 		(property "LCSC" "C20539727"
-			(at 261.62 35.56 0)
+			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10186,7 +10176,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 261.62 35.56 0)
+			(at 261.62 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,7 +10694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +11056,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:DLL-5569-2AW")
-		(at 276.86 74.93 0)
+		(at 276.86 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11076,7 +11066,7 @@
 		(dnp no)
 		(uuid "5cdb3ab4-46e3-46e0-82fe-1cde4b5fbb73")
 		(property "Reference" "CN10"
-			(at 280.67 73.6599 0)
+			(at 280.67 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11087,7 +11077,7 @@
 			)
 		)
 		(property "Value" "DLL-5569-2AW"
-			(at 269.24 80.518 0)
+			(at 269.24 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11098,7 +11088,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22365654_CONN-TH_DLL-5569-2AW-GOLD-GR"
-			(at 276.86 85.09 0)
+			(at 276.86 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11109,7 +11099,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403221555_DLL-DLL-5569-2AW_C22365654.pdf"
-			(at 274.574 74.803 0)
+			(at 274.574 77.343 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11120,7 +11110,7 @@
 			)
 		)
 		(property "Description" "DLL-5569-2AW"
-			(at 276.86 74.93 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11131,7 +11121,7 @@
 			)
 		)
 		(property "LCSC" "C22365654"
-			(at 276.86 74.93 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11142,7 +11132,7 @@
 			)
 		)
 		(property "Manufacturer" "DLL(德利)"
-			(at 276.86 74.93 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,7 +11188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -11357,7 +11347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.862 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +11681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -12753,7 +12743,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:DLL-5569-2AW")
-		(at 276.86 36.83 0)
+		(at 276.86 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12763,7 +12753,7 @@
 		(dnp no)
 		(uuid "9c147c4c-8ab6-4d2b-984b-af7857eb082f")
 		(property "Reference" "CN8"
-			(at 280.67 35.5599 0)
+			(at 280.67 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12774,7 +12764,7 @@
 			)
 		)
 		(property "Value" "DLL-5569-2AW"
-			(at 269.24 42.672 0)
+			(at 269.24 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12785,7 +12775,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C22365654_CONN-TH_DLL-5569-2AW-GOLD-GR"
-			(at 276.86 46.99 0)
+			(at 276.86 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12796,7 +12786,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403221555_DLL-DLL-5569-2AW_C22365654.pdf"
-			(at 274.574 36.703 0)
+			(at 274.574 39.243 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12807,7 +12797,7 @@
 			)
 		)
 		(property "Description" "DLL-5569-2AW"
-			(at 276.86 36.83 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12818,7 +12808,7 @@
 			)
 		)
 		(property "LCSC" "C22365654"
-			(at 276.86 36.83 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12829,7 +12819,7 @@
 			)
 		)
 		(property "Manufacturer" "DLL(德利)"
-			(at 276.86 36.83 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +12878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.882 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13203,7 +13193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13441,7 +13431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13892,7 +13882,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:KH-6X6X6H-STM")
-		(at 57.15 173.99 0)
+		(at 57.15 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13903,7 +13893,7 @@
 		(fields_autoplaced yes)
 		(uuid "c03350d7-acc9-4f48-9363-ca3fab1471ca")
 		(property "Reference" "SW2"
-			(at 57.15 166.37 0)
+			(at 57.15 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13913,7 +13903,7 @@
 			)
 		)
 		(property "Value" "KH-6X6X6H-STM"
-			(at 57.15 168.91 0)
+			(at 57.15 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13923,7 +13913,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C2837532_SW-SMD_4P-L6_0-W6_0-P4_50-LS9_0_KH-6X6X6H-STM"
-			(at 57.15 184.15 0)
+			(at 57.15 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13934,7 +13924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081502_Shenzhen-Kinghelm-Elec-KH-6X6X6H-STM_C2837532.pdf"
-			(at 54.864 173.863 0)
+			(at 54.864 168.783 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13945,7 +13935,7 @@
 			)
 		)
 		(property "Description" "KH-6X6X6H-STM"
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13956,7 +13946,7 @@
 			)
 		)
 		(property "LCSC" "C2837532"
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13967,7 +13957,7 @@
 			)
 		)
 		(property "Manufacturer" "kinghelm(金航标)"
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13978,7 +13968,7 @@
 			)
 		)
 		(property "功率" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13989,7 +13979,7 @@
 			)
 		)
 		(property "DCR" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14000,7 +13990,7 @@
 			)
 		)
 		(property "ESR" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14011,7 +14001,7 @@
 			)
 		)
 		(property "IDC" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14022,7 +14012,7 @@
 			)
 		)
 		(property "精度" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14033,7 +14023,7 @@
 			)
 		)
 		(property "耐压" ""
-			(at 57.15 173.99 0)
+			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14067,7 +14057,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 67.31 184.15 0)
+		(at 64.77 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14078,7 +14068,7 @@
 		(fields_autoplaced yes)
 		(uuid "c588e3b4-9c77-442c-a283-b6eee48bf7fd")
 		(property "Reference" "#PWR07"
-			(at 67.31 190.5 0)
+			(at 64.77 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14089,7 +14079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 189.23 0)
+			(at 64.77 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14099,7 +14089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 184.15 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14110,7 +14100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 184.15 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14121,7 +14111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 67.31 184.15 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15930,26 +15920,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RS485_A" bidirectional
-			(at 233.68 110.49 0)
-			(uuid "242b83c0-5383-4f2f-8052-c1b2bf27fc6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RS485_B" bidirectional
-			(at 233.68 115.57 0)
-			(uuid "8530fbe4-1343-4c7b-9025-317696a313ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RS485_DE" input
 			(at 210.82 110.49 180)
 			(uuid "3fd4fd85-ffdc-4b12-8cbf-82d086bd6616")
@@ -15998,6 +15968,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RS485_N" bidirectional
+			(at 233.68 115.57 0)
+			(uuid "2f51995b-4368-4b07-bfdd-a1d2ef9f721a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_P" bidirectional
+			(at 233.68 110.49 0)
+			(uuid "984b8efc-1325-4be2-a09d-42e3e03b881a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -1323,7 +1323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.622 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1488,7 +1488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.89 93.472 0)
 			(hide yes)
 			(show_name no)

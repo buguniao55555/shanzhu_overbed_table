@@ -1901,7 +1901,7 @@
 		)
 		(uuid "f6fd1e40-d1d4-4049-9876-358253332fc4")
 	)
-	(hierarchical_label "RS485_A"
+	(hierarchical_label "RS485_P"
 		(shape bidirectional)
 		(at 186.69 74.93 0)
 		(effects
@@ -1934,7 +1934,7 @@
 		)
 		(uuid "24f7da5b-5a14-4c56-b9d9-22070637d8f9")
 	)
-	(hierarchical_label "RS485_B"
+	(hierarchical_label "RS485_N"
 		(shape bidirectional)
 		(at 186.69 92.71 0)
 		(effects
@@ -2012,7 +2012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.562 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2249,7 +2249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2645,7 +2645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.562 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.862 83.82 0)
 			(hide yes)
 			(show_name no)
