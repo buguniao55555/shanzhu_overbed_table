@@ -5331,12 +5331,6 @@
 		(uuid "1dae5d68-775e-4bce-ab01-687e27c6b448")
 	)
 	(junction
-		(at 146.05 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22cae04c-eca4-45bc-9329-70538260a4e7")
-	)
-	(junction
 		(at 125.73 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5407,12 +5401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54c478e5-8bc2-4a88-a64d-a27aace058cb")
-	)
-	(junction
-		(at 129.54 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "569b76a3-1b93-4677-83cc-cad859638bcc")
 	)
 	(junction
 		(at 247.65 90.17)
@@ -5515,12 +5503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d221046a-8f8e-4de6-a600-a61a1d2037ed")
-	)
-	(junction
-		(at 133.35 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d31b5ee7-26af-4a9a-8071-9bd5321b3c63")
 	)
 	(junction
 		(at 121.92 163.83)
@@ -5698,26 +5680,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.11) (xy 137.16 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7fd05b-468d-41b0-8fea-38ef022721ea")
-	)
-	(wire
-		(pts
-			(xy 146.05 107.95) (xy 146.05 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11625db1-bfee-45c2-8657-90e33c53da90")
-	)
-	(wire
-		(pts
 			(xy 74.93 35.56) (xy 67.31 35.56)
 		)
 		(stroke
@@ -5745,26 +5707,6 @@
 			(type default)
 		)
 		(uuid "15bd7925-8cf6-4bcc-9a66-f436dbf0829a")
-	)
-	(wire
-		(pts
-			(xy 146.05 133.35) (xy 146.05 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1605add3-aa08-46cd-b270-c744d8c06f17")
-	)
-	(wire
-		(pts
-			(xy 146.05 130.81) (xy 146.05 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1611a43a-f65b-4702-b0d8-192ef13cccbf")
 	)
 	(wire
 		(pts
@@ -5828,16 +5770,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 123.19) (xy 137.16 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d241a89-8fd1-4901-ba35-6d7f99859026")
-	)
-	(wire
-		(pts
 			(xy 83.82 53.34) (xy 83.82 63.5)
 		)
 		(stroke
@@ -5885,16 +5817,6 @@
 			(type default)
 		)
 		(uuid "21810da0-a562-4fe7-bd7a-66fa7074c37c")
-	)
-	(wire
-		(pts
-			(xy 133.35 133.35) (xy 133.35 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223435c1-3056-491e-b15e-14343cd5e26f")
 	)
 	(wire
 		(pts
@@ -6025,16 +5947,6 @@
 			(type default)
 		)
 		(uuid "2bca603e-4ca7-4366-ac81-a56d510ed891")
-	)
-	(wire
-		(pts
-			(xy 146.05 107.95) (xy 157.48 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d0459d9-b367-4a5c-8f71-9d1ba028f097")
 	)
 	(wire
 		(pts
@@ -6288,16 +6200,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 133.35) (xy 146.05 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be5d8f4-ad22-4ec0-b9cf-88ffd4b225d8")
-	)
-	(wire
-		(pts
 			(xy 181.61 139.7) (xy 181.61 144.78)
 		)
 		(stroke
@@ -6535,16 +6437,6 @@
 			(type default)
 		)
 		(uuid "6eee8546-5776-4d17-ad62-12a9935f5163")
-	)
-	(wire
-		(pts
-			(xy 129.54 123.19) (xy 129.54 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0d8f7a-5b59-47e0-8ec6-ceae3b25cf35")
 	)
 	(wire
 		(pts
@@ -6878,16 +6770,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 137.16 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f011adb-591b-4e2f-af65-9f67e1971388")
-	)
-	(wire
-		(pts
 			(xy 62.23 134.62) (xy 62.23 137.16)
 		)
 		(stroke
@@ -6928,16 +6810,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 129.54 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1514384-5d35-40cb-bb4c-eb7b2acb9c3b")
-	)
-	(wire
-		(pts
 			(xy 34.29 181.61) (xy 34.29 184.15)
 		)
 		(stroke
@@ -6975,16 +6847,6 @@
 			(type default)
 		)
 		(uuid "a6690358-9ec7-4494-a9fb-0d219f4736d3")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 137.16 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a6dda7-f15a-40a7-9e07-3ca97a34ae3e")
 	)
 	(wire
 		(pts
@@ -7218,16 +7080,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 107.95) (xy 157.48 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3cc1f71-bb47-465f-9e2b-2814a2cfa88e")
-	)
-	(wire
-		(pts
 			(xy 200.66 110.49) (xy 210.82 110.49)
 		)
 		(stroke
@@ -7395,16 +7247,6 @@
 			(type default)
 		)
 		(uuid "d4ea7a8b-594b-47f5-aa38-942ccc462381")
-	)
-	(wire
-		(pts
-			(xy 124.46 125.73) (xy 137.16 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5b1e71c-12b4-4416-809e-03538bbc7636")
 	)
 	(wire
 		(pts
@@ -7605,16 +7447,6 @@
 			(type default)
 		)
 		(uuid "f1e680fe-adf9-4d1c-8eb3-181fc6c185c4")
-	)
-	(wire
-		(pts
-			(xy 146.05 133.35) (xy 157.48 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f69eed-3dbc-4076-b55e-3ac812501edd")
 	)
 	(wire
 		(pts
@@ -9626,191 +9458,6 @@
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:AFA01-S05FCA-00")
-		(at 142.24 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2144c5a2-4e84-4319-8143-ba8b5dd2d81e")
-		(property "Reference" "X2"
-			(at 148.59 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AFA01-S05FCA-00"
-			(at 148.59 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C262753_FPC-SMD_AFA01-S05FCA-00"
-			(at 142.24 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_JUSHUO-AFA01-S05FCA-00_C262753.pdf"
-			(at 139.954 120.523 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AFA01-S05FCA-00"
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C262753"
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JS(钜硕电子)"
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "功率" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ESR" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IDC" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "精度" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "耐压" ""
-			(at 142.24 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "c42feed0-953d-458a-9d2b-a7d1bdd7ea5e")
-		)
-		(pin "1"
-			(uuid "4c145398-cf36-45d0-b0a4-e458c428fa3f")
-		)
-		(pin "7"
-			(uuid "d9d33485-48bf-4ba5-8dc5-34507b3c4ee6")
-		)
-		(pin "6"
-			(uuid "696141fd-ea3f-47f5-965b-d51947fac158")
-		)
-		(pin "4"
-			(uuid "2b7e7c1f-1554-490d-8c31-4bae52dc86a9")
-		)
-		(pin "3"
-			(uuid "ea9ed092-72e6-4371-bb61-770367df0483")
-		)
-		(pin "2"
-			(uuid "8b3a4165-4d86-4244-a84e-57aa1fc6c93e")
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -12380,84 +12027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 129.54 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "853ff177-867c-4083-a4a1-effc8912b187")
-		(property "Reference" "#FLG06"
-			(at 129.54 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 129.54 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c246753-e568-41dc-aaa5-e08269a1e040")
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:KH-6X6X6H-STM")
 		(at 22.86 173.99 0)
 		(unit 1)
@@ -13816,84 +13385,6 @@
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 146.05 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b410fc67-eeca-427b-8fbb-e4f0de16d63e")
-		(property "Reference" "#FLG07"
-			(at 146.05 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 146.05 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 146.05 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ee1ca67-2f38-4d52-8929-a56e5da9fdb6")
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -15898,102 +15389,6 @@
 		)
 	)
 	(sheet
-		(at 99.06 111.76)
-		(size 25.4 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "46dee3d9-249f-4bda-affb-ec62890f9694")
-		(property "Sheetname" "数码管_按钮"
-			(at 99.06 111.0484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "数码管_按钮.kicad_sch"
-			(at 99.06 130.1246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5V_IN" input
-			(at 124.46 123.19 0)
-			(uuid "626042c3-011c-4bc2-bd59-73fc3fef7578")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CLK" input
-			(at 124.46 118.11 0)
-			(uuid "96c3b9d3-a99c-416b-a60c-4084a1980f70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DIO" bidirectional
-			(at 124.46 120.65 0)
-			(uuid "5881a363-73df-40a4-b58b-c18d554bbb60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND_IN" input
-			(at 124.46 125.73 0)
-			(uuid "16fc24dd-e151-4cfa-8676-c222abb55177")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STB" input
-			(at 124.46 115.57 0)
-			(uuid "f6a34960-953e-4597-a458-0a4591e657f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 214.63 71.12)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
@@ -16141,52 +15536,6 @@
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 110.49)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9fa5aece-105e-4357-8f5a-b604ad0fd05e")
-		(property "Sheetname" "桌脚小板_2"
-			(at 170.18 109.7784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "桌脚小板.kicad_sch"
-			(at 170.18 123.7746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(page "14")
 				)
 			)
 		)
@@ -16455,52 +15804,6 @@
 			(project "overbed_table"
 				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 91.44)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f23aadba-fa83-4294-bb42-1682d33db095")
-		(property "Sheetname" "桌脚小板_1"
-			(at 170.18 90.7284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "桌脚小板.kicad_sch"
-			(at 170.18 104.7246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "overbed_table"
-				(path "/ea72387d-aa38-4027-b8fe-1f6fcfee6654"
-					(page "15")
 				)
 			)
 		)
