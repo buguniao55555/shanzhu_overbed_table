@@ -8949,7 +8949,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C22"
-			(at -6.5 0 180)
+			(at 4.4 -2.4 180)
 			(layer "F.SilkS")
 			(uuid "816dd90b-bf5f-4067-99d6-ab11b652649a")
 			(effects
@@ -13615,6 +13615,19 @@
 		(fill no)
 		(layer "Margin")
 		(uuid "e294b560-7de6-4242-bf83-28c3192a8603")
+	)
+	(gr_text "Designed by Eazybot"
+		(at 165.2 109.8 0)
+		(layer "B.SilkS")
+		(uuid "7a17a79e-5c7e-4a12-9fe2-d322c4a5891e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(via
 		(at 114.5 76.75)
