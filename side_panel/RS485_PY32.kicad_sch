@@ -1226,7 +1226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31bc8d46-88b4-4b43-9979-1ca417fbc8d9")
-		(property "Reference" "C78"
+		(property "Reference" "C15"
 			(at 143.51 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,7 +1354,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/dcc0c29f-55e6-46e1-9fee-927044492ad7"
-					(reference "C78")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1372,7 +1372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636fee57-49d8-4193-9fe2-f615b35754ab")
-		(property "Reference" "R76"
+		(property "Reference" "R18"
 			(at 97.79 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,7 +1394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1513,7 +1513,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/dcc0c29f-55e6-46e1-9fee-927044492ad7"
-					(reference "R76")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cadf7f94-6ee0-44e0-96a2-ea3e88380229")
-		(property "Reference" "U35"
+		(property "Reference" "U8"
 			(at 136.7633 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,7 +1680,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/dcc0c29f-55e6-46e1-9fee-927044492ad7"
-					(reference "U35")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1698,7 +1698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2535ca7-6d45-4d86-b1eb-8282e4620065")
-		(property "Reference" "R77"
+		(property "Reference" "R19"
 			(at 163.83 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1720,7 +1720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.862 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1839,7 +1839,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/dcc0c29f-55e6-46e1-9fee-927044492ad7"
-					(reference "R77")
+					(reference "R19")
 					(unit 1)
 				)
 			)

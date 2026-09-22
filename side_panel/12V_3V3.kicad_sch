@@ -662,7 +662,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "SW"
@@ -698,7 +698,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "VFB"
@@ -716,7 +716,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "EN"
@@ -1301,7 +1301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8d7da4-c8f9-4318-b2a0-5aaf37770763")
-		(property "Reference" "C70"
+		(property "Reference" "C9"
 			(at 77.47 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,7 +1431,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C70")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e957d4-5abf-480e-bc28-5f569afe1101")
-		(property "Reference" "C71"
+		(property "Reference" "C10"
 			(at 91.44 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1579,7 +1579,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C71")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1597,7 +1597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6694a523-11c4-4fde-a916-4dc2de442ff6")
-		(property "Reference" "R73"
+		(property "Reference" "R17"
 			(at 166.37 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1619,7 +1619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.258 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1738,7 +1738,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "R73")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45f0c91-fcb8-404a-89fe-722ca1dfe735")
-		(property "Reference" "R72"
+		(property "Reference" "R16"
 			(at 166.37 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +1778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.258 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1897,7 +1897,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "R72")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1915,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5dad67-0c90-4b33-bc3b-f10708439efe")
-		(property "Reference" "U33"
+		(property "Reference" "U7"
 			(at 120.65 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2077,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "U33")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2095,7 +2095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ed34b1-493b-4908-8ed7-23f2b0fdad28")
-		(property "Reference" "C74"
+		(property "Reference" "C13"
 			(at 193.04 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +2225,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C74")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccc9fe6b-e945-40ba-a9b0-f88e777b20e3")
-		(property "Reference" "L4"
+		(property "Reference" "L1"
 			(at 156.21 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2327,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbbcc5e2-0d44-4560-aeda-35ca4f2493ff")
-		(property "Reference" "C72"
+		(property "Reference" "C11"
 			(at 140.97 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2473,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C72")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeb1e683-75a4-4bf2-a4a0-58dacbb578b4")
-		(property "Reference" "C73"
+		(property "Reference" "C12"
 			(at 181.61 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +2621,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C73")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2639,7 +2639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f58f1db6-bfb2-4bd5-958f-957fcb994009")
-		(property "Reference" "C75"
+		(property "Reference" "C14"
 			(at 204.47 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2769,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/f010a35a-4b6a-457a-8fe3-87f1b650848c"
-					(reference "C75")
+					(reference "C14")
 					(unit 1)
 				)
 			)

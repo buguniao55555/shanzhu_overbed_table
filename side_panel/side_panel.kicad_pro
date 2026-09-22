@@ -611,14 +611,86 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "功率",
+          "name": "功率",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "精度",
+          "name": "精度",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "耐压",
+          "name": "耐压",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IDC",
+          "name": "IDC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR",
+          "name": "ESR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -661,7 +733,7 @@
         "uuid": "6f325c3b-cf1b-4cbd-9ec7-aa44385f0008"
       }
     ],
-    "used_designators": "#FLG8-12,R41-52,R65-77,L4,#PWR58-93,#PWR130-148,C44-51,C60-78,CN4-5,SW15-16,H2,TP1-2,TP14-17,TP22-34,U19-24,U31-35,X3-4",
+    "used_designators": "#FLG1-3,#FLG8-12,R1-28,R41-52,R65-77,L1,L4,#PWR1-95,#PWR130-148,C1-27,C44-51,C60-78,CN1-2,CN4-5,SW1-2,SW15-16,H1-2,TP1-11,TP14-17,TP22-34,U1-11,U19-24,U31-35,X1,X3-4,D1-3",
     "variants": []
   },
   "sheets": [

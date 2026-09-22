@@ -160,121 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power local)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "local power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-Connector:TestPoint_1.0mm"
 			(pin_numbers
 				(hide yes)
@@ -907,7 +792,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
-			(power local)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -963,7 +848,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a local label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -974,7 +859,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "local power"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1046,7 +931,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power local)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1102,7 +987,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1113,7 +998,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "local power"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1742,7 +1627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0440ea60-faad-4a7a-ba46-810228f643b4")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR041"
 			(at 63.5 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -1802,7 +1687,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "#PWR0141")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1820,7 +1705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13a61b52-31a8-4dd3-b894-4a1054caa0c0")
-		(property "Reference" "C68"
+		(property "Reference" "C16"
 			(at 46.99 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +1835,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "C68")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49420317-850f-4eb1-be6f-c50b4e02ed58")
-		(property "Reference" "R69"
+		(property "Reference" "R20"
 			(at 99.06 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +1875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2109,7 +1994,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "R69")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2127,7 +2012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c89641-c5fa-464a-beff-442c245c704c")
-		(property "Reference" "C69"
+		(property "Reference" "C17"
 			(at 60.96 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2257,14 +2142,13 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "C69")
+					(reference "C17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 134.62 128.27 0)
 		(unit 1)
@@ -2276,7 +2160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b64b725-96c2-41e4-8f4c-41b85d2fa5a0")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR043"
 			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2336,7 +2220,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "#PWR0143")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2b926f-f16a-4e3f-8cc4-21c0d1324526")
-		(property "Reference" "U32"
+		(property "Reference" "U9"
 			(at 143.51 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,7 +2398,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "U32")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2532,7 +2416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e3ba43-8c5b-4215-8665-863819d59722")
-		(property "Reference" "TP34"
+		(property "Reference" "TP3"
 			(at 119.38 87.63 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2658,7 +2542,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "TP34")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2676,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ff08e3-c803-4297-ad88-14b83f2b191a")
-		(property "Reference" "TP32"
+		(property "Reference" "TP1"
 			(at 80.01 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2802,7 +2686,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "TP32")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2820,7 +2704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746d5e29-ab9c-4a08-aed1-d45fa2ebc8a0")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR040"
 			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2880,7 +2764,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "#PWR0140")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2898,7 +2782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d98886-4368-4c5c-93fc-fbf575996c02")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR042"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2958,7 +2842,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "#PWR0142")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2976,7 +2860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a53aeb-d2a5-453c-a176-e5d64f2f8b0e")
-		(property "Reference" "R70"
+		(property "Reference" "R21"
 			(at 109.22 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.252 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3117,7 +3001,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "R70")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3135,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baac0c50-4ffd-41f4-b2e8-c30af113df2e")
-		(property "Reference" "R71"
+		(property "Reference" "R22"
 			(at 121.92 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3276,7 +3160,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "R71")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3294,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba2e531-fa3a-4c0f-81c4-ef7e4deeb25d")
-		(property "Reference" "TP33"
+		(property "Reference" "TP2"
 			(at 88.9 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3420,7 +3304,7 @@
 		(instances
 			(project "side_panel"
 				(path "/6f325c3b-cf1b-4cbd-9ec7-aa44385f0008/c9bb3357-dcaa-4211-b368-89a3c1409a9c"
-					(reference "TP33")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
